@@ -1,0 +1,13 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.wrap {
+  max-width: 1300px;
+  border: 1px solid red;
+  margin: 0 auto;
+}
+
+.info__text {
+  color: rgb(38, 50, 56);
+}
