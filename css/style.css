@@ -9,7 +9,7 @@ body {
 .first-section__wrap-content {
   margin: 0 auto;
   max-width: 1300px;
-  width: 80%;
+  width: 90%;
 }
 
 .first-section__top {
@@ -150,7 +150,7 @@ body {
 .concept__wrap {
   margin: 0 auto;
   max-width: 1300px;
-  width: 80%;
+  width: 90%;
   background: url(../img/light.svg) 90% 50%/10% auto no-repeat;
   border-right: 1px solid #2c2e2a;
   border-left: 1px solid #2c2e2a;
@@ -179,7 +179,7 @@ body {
   padding: 50px 0;
   margin: 0 auto;
   max-width: 1300px;
-  width: 80%;
+  width: 90%;
   border-right: 1px solid #2c2e2a;
   border-left: 1px solid #2c2e2a;
 }
@@ -201,7 +201,7 @@ body {
   align-items: center;
   font: 400 16px/25px 'Raleway', sans-serif;
   background: url(../img/select.svg) 0% 50%/contain no-repeat;
-  max-width: 80%;
+  max-width: 90%;
 }
 
 .contact {
@@ -211,7 +211,7 @@ body {
 .contact__wrap {
   margin: 0 auto;
   max-width: 1300px;
-  width: 80%;
+  width: 90%;
   background: url(../img/phone.svg) 90% 50%/10% auto no-repeat;
   border-right: 1px solid #2c2e2a;
   border-left: 1px solid #2c2e2a;
