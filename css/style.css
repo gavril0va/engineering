@@ -56,6 +56,11 @@ body {
   font-weight: 700;
   text-decoration: none;
   border: 2px solid #608a19;
+  transition: color 0.3s;
+}
+
+.top-info__text_tel:hover {
+  color: #608a19;
 }
 
 .first-section__main {
@@ -125,10 +130,17 @@ body {
   display: inline-block;
   padding: 20px 60px;
   background: #608a19;
+  border: 2px solid #608a19;
   font: 700 15px/20px 'Raleway', sans-serif;
   text-align: center;
   color: #fff;
   text-decoration: none;
+  transition: color 0.3s, background 0.3s;
+}
+
+.offer__button:hover {
+  color: #608a19;
+  background: #e6e5e3;
 }
 
 .concept {
