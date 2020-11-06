@@ -2,11 +2,12 @@ body {
   margin: 0;
 }
 
+
 .first-section {
   background: url('../img/bg.png') top/cover no-repeat #a9b2c3;
 }
 
-.first-section__wrap-content {
+.wrap-content {
   margin: 0 auto;
   max-width: 1300px;
   width: 90%;
@@ -249,3 +250,5 @@ body {
   border-bottom: 1px solid #608a19;
   color: #608a19;
 }
+
+/* 255
