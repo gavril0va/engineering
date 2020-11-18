@@ -13,12 +13,12 @@ body {
 }
 
 .first-section {
-  background: url('../img/bgg.jpg') top/cover no-repeat #a9b2c3;
+  background: url('../img/bg.png') top/cover no-repeat #a9b2c3;
 }
 
 .first-section__wrap-content {
   padding: 0 25px;
-} 
+}
 
 .first-section__top {
   border-bottom: 1px solid #847e75;
