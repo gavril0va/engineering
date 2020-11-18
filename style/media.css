@@ -142,12 +142,12 @@
   }
 
   .offer__title {
-    font-size: 20px;
-    line-height: 36px;
+    /* font-size: 20px;
+    line-height: 36px; */
   }
 
   .offer__detail {
-    font-size: 16px;
+    /* font-size: 16px; */
   }
 
   .offer__button {
