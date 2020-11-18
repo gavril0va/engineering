@@ -6,7 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="style/media.css">
   <title>Инжиниринговые услуги</title>
 </head>
 <body>
@@ -20,7 +21,7 @@
             </div>
             <a class="top-info__text top-info__text_mail" href="mailto:ekaterina.k1302@mail.ru?subject=Сообщение с сайта">ekaterina.k1302@mail.ru</a>
           </div>
-          <div class="top-info__item">
+          <div class="top-info__item top-info__item_hidden">
             <div class="top-info__text top-info__text_opacity">
               Мы находимся
             </div>
@@ -33,6 +34,14 @@
             <a href="tel:+79044239557" class="top-info__text top-info__text_tel">+7 (904) 423-95-57 </a>
           </div>
         </div>
+        <div class="logo logo-mobile">
+            Инженеринговые услуги
+        </div>
+        <a href="mobile-menu.html" class="mobile-menu">
+          <div class="mobile-menu__item"></div>
+          <div class="mobile-menu__item"></div>
+          <div class="mobile-menu__item"></div>
+        </a>
       </div>
     </div>
     <div class="first-section__wrap-content wrap-content">
@@ -51,11 +60,12 @@
           <h1 class="offer__title">
              Инжиниринговые услуги удаленно
           </h1>
-          <a href="#service" class="offer__detail">Узнать подробнее об услугах</a>
-          <a href="#" class="offer__button">
+          <a href="#service_id" class="offer__detail">
+            Узнать подробнее об услугах
+          </a>
+          <a href="#contact_id" class="offer__button">
               Получить консультацию
           </a>
-          .
         </section>
       </div>
     </div>
@@ -73,7 +83,7 @@
           </p>
       </div>
     </section>
-    <section class="section-service" id="service">
+    <section class="section-service" id="service_id">
       <div class="section-service__wrap wrap-content">
         <h2 class="section-service__title">
               Что мы можем предложить?
@@ -95,25 +105,32 @@
               Введение отчетности участка (по материалам, человеческим ресурсам, механизмам, проделанной работе за текущий/прошедший день, неделю, месяц.
           </div>
           <div class="service-item">
-              Заполнение специальных журналов предусмотренных в строительство того или иного объекта (по ОТ и ПБ, общий журнал работ, сварочный журнал - трубопроводы и металлоконструкции, журнал монтажа строительных конструкций).
+              Заполнение специальных журналов предусмотренных в строительство того или иного объекта <span class="service__item_hidden">(по ОТ и ПБ, общий журнал работ, сварочный журнал - трубопроводы и металлоконструкции, журнал монтажа строительных конструкций).</span>
           </div>
         </div>
       </div>
     </section>
-    <section class="contact">
+    <section class="contact" id="contact_id">
       <div class="contact__wrap wrap-content">
         <h2 class="contact__title">
-          Наши контакты
+          Связаться с нами
         </h2>
-          <div class="contact__text">
-            Эл. почта
-            <a class="contact__mail" href="mailto:ekaterina.k1302@mail.ru?subject=Сообщение с сайта">ekaterina.k1302@mail.ru</a>
-          </div>
+        <p class="contact__text">
+          Заполните форму ниже, чтобы получить консультацию или свяжитесь любым удобным способом
+        </p>
+          <form class="contact__form" action="https://formspree.io/f/meqpzver" method="POST">
+            <input class="contact__form__item" type="text" name="message" placeholder="Имя">
+            <input class="contact__form__item" type="text" name="message" placeholder="Телефон или эл. почта">
+            <button class="contact__form__item contact__form__item_btn"type="submit">Получить консультацию</button>
+          </form>
             <div class="contact__text">
-              Звонок, WhatsApp
-              <a href="tel:+79044239557" class="contact__phone">+7 (904) 423-95-57 </a>
+              Эл. почта
+              <a class="contact__mail" href="mailto:ekaterina.k1302@mail.ru?subject=Сообщение с сайта">ekaterina.k1302@mail.ru</a>
             </div>
-        </div>
+              <div class="contact__text">
+                Звонок, WhatsApp
+                <a href="tel:+79044239557" class="contact__phone">+7 (904) 423-95-57 </a>
+              </div>
       </div>
     </section>
 </body>
