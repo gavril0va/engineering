@@ -26,11 +26,17 @@
 }
 
 .mobile-menu__item {
-    font: 700 15px/28px 'Open Sans', sans-serif;
-    text-transform: uppercase;
-    display: block;
-    color: #000;
-    text-decoration: none;
-    text-align: center;
-    margin-bottom: 26px;
+  font: 700 15px/28px 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  display: block;
+  color: #000;
+  text-decoration: none;
+  text-align: center;
+  margin-bottom: 26px;
+}
+.mobile-menu__item_border_green {
+  border: 2px solid #608a19;
+  width: 200px;
+  padding: 15px 0;
+  margin: 0 auto;
 }

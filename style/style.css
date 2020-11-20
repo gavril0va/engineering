@@ -1,6 +1,6 @@
- /* html {
-  scroll-behavior: smooth;
-} */
+html {
+    scroll-behavior: smooth;
+}
 
 body {
   margin: 0;
@@ -99,6 +99,7 @@ body {
   text-transform: uppercase;
   color: #fff;
   background: url(../img/logo.svg) top left/contain no-repeat;
+  text-decoration: none;
 }
 
 .nav__item {
