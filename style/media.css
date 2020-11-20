@@ -162,8 +162,7 @@
 
   .concept__wrap {
     border: none;
-    background-position: top right;
-    background-size: 10%;
+    background: none;
     padding: 40px 0 50px;
   }
 
@@ -200,6 +199,7 @@
 
   .contact__wrap {
     border: none;
+    background: none;
   }
 
   .contact__title {
