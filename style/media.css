@@ -93,7 +93,6 @@
   .first-section__wrap-content {
     display: flex;
     justify-content: space-between;
-    -ms-align-items: center;
     align-items: center;
     padding: 10px;
   }
