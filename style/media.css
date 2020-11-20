@@ -103,6 +103,7 @@
   }
   .logo {
     display: none;
+    line-height: 23px;
   }
 
   .logo-mobile {
@@ -139,11 +140,16 @@
 
   .first-section__main {
     border: none;
+    margin: 0 auto;
   }
 
   .offer__title {
     font-size: 26px;
     line-height: 36px;
+  }
+
+  .offer__title_new-string {
+    display: block;
   }
 
   .offer__detail {
@@ -156,18 +162,20 @@
 
   .concept__wrap {
     border: none;
-    background-position: 95% 45px;
+    background-position: top right;
+    background-size: 10%;
     padding: 40px 0 50px;
   }
 
   .concept__title {
-    font-size: 19px;
+    font-size: 23px;
+    line-height: 30px;
     padding: 0 10px;
   }
 
   .concept__description {
     max-width: 100%;
-    font-size: 12px;
+    font-size: 14px;
     padding: 0 10px;
   }
 
@@ -176,13 +184,14 @@
   }
 
   .section-service__title {
-    font-size: 19px;
+    font-size: 23px;
+    line-height: 30px;
     padding-left: 15px;
   }
 
   .service-item {
-    font-size: 12px;
     line-height: 16px;
+    margin-left: 0;
   }
 
   .service__item_hidden {
@@ -194,8 +203,8 @@
   }
 
   .contact__title {
-    font-size: 19px;
-    text-align: center;
+    font-size: 23px;
+    line-height: 30px;
   }
 
 }
