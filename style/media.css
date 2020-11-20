@@ -193,7 +193,7 @@
     margin-left: 0;
   }
 
-  .service__item_hidden {
+  .service-item:last-child {
     display: none;
   }
 
