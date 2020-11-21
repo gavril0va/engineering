@@ -282,3 +282,11 @@ body {
   border-bottom: 1px solid #608a19;
   color: #608a19;
 }
+
+.privacy {
+  font: normal 10px/16px 'Open Sans', sans-serif;
+  text-decoration: none;
+  border-bottom: 1px dotted #1d1f1c;
+  color: #1d1f1c;
+  margin-left: 25px;
+}
