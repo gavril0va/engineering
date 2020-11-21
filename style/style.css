@@ -128,11 +128,12 @@ body {
   text-transform: uppercase;
   text-align: center;
   color: #fff;
+  color: red;
 }
 
 .offer__detail {
   margin-bottom: 60px;
-  font: 700 24px/35px 'Raleway', sans-serif;
+  font: 700 24px/35px 'Open Sans', sans-serif;
   text-align: center;
   display: block;
   color: #fff;
@@ -146,7 +147,7 @@ body {
   padding: 20px 60px;
   background: #608a19;
   border: 2px solid #608a19;
-  font: 700 15px/20px 'Raleway', sans-serif;
+  font: 700 15px/20px 'Open Sans', sans-serif;
   text-align: center;
   color: #fff;
   text-decoration: none;
@@ -183,7 +184,7 @@ body {
   padding-right: 25px;
   margin-bottom: 15px;
   max-width: 70%;
-  font: 400 16px/25px 'Raleway', sans-serif;
+  font: 400 16px/25px 'Open Sans', sans-serif;
   color: #1d1f1c;
 }
 
@@ -208,7 +209,7 @@ body {
   margin-bottom: 20px;
   padding-left: 50px;
   align-items: center;
-  font: 400 16px/25px 'Raleway', sans-serif;
+  font: 400 16px/25px 'Open Sans', sans-serif;
   background: url(../img/select.svg) 0% 50%/contain no-repeat;
   max-width: 90%;
 }
@@ -236,7 +237,7 @@ body {
   padding-left: 25px;
   margin-right: 20px;
   margin-bottom: 10px;
-  font: 400 16px/25px 'Raleway', sans-serif;
+  font: 400 16px/25px 'Open Sans', sans-serif;
   color: #1d1f1c;
   max-width: 450px;
 }
@@ -250,7 +251,7 @@ body {
   margin-bottom: 15px;
   width: 250px;
   padding: 10px;
-  font: 400 12px/16px 'Raleway', sans-serif;
+  font: 400 12px/16px 'Open Sans', sans-serif;
 }
 
 .contact__form__item_btn {
