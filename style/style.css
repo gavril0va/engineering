@@ -22,7 +22,7 @@ body {
 
 .first-section__top {
   border-bottom: 1px solid #847e75;
-  background: rgba(54, 58, 54);
+  background: rgba(28, 28, 28, .6);
 }
 
 .top-info {
